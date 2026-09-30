@@ -1,0 +1,14 @@
+# secrets and local state — never tracked
+.env
+.env.*
+*.key
+*.pem
+board_mcp/board_data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.blend1
+# outputs
+out/
+*.gnv.local.json
