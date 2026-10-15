@@ -1,3 +1,6 @@
 # GNV public demo — minimal dependencies
 mcp>=2.0          # Model Context Protocol server (SDK 2.0 MCPServer API)
+usd-core          # OpenUSD Python API
+mapbox-earcut     # Polygon triangulation for extrusion
+numpy             # Math utilities
 # Blender itself provides bpy for alphaomega/forge_relief.py (no pip package)
