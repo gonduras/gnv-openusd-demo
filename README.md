@@ -1,5 +1,8 @@
 # GNV — OpenUSD Genealogy for Analogue Collage (public demo)
 
+> **[POLICY NOTICE — 2026-10-14 (Option 1A Historical Marker)]**
+> The six-axis evaluation scheme (`Material_Substrate`, `Exposure_Fracture`, `Structural_Glitch`, `Graphic_Vector`, `Zero_Plane`, `Faceted_Decomposition`), fixed ranges, and automatic `Zero_Plane < 0.40` hard-rejection gate documented below were **retired effective 2026-10-14** by artist directive (`CURRENT_ART_EVALUATION_POLICY.md`). Renaming the same six axes does not un-retire them. This repository is preserved as historical evidence of the **Nebius × NVIDIA Global AI Hackathon** demonstration slice — **not** current art law or active training policy.
+
 **This is the public demonstration slice of the GMM / GONDURASTRATION system** submitted to the
 **Nebius × NVIDIA Global AI Hackathon** (track: *Coding and agentic engineering*).
 
@@ -15,7 +18,9 @@ ink density, newsprint grain, tape residue, resin sheen, torn-edge step disconti
 with two decades of physical work cannot ask a model **"is this actually my style?"** — and nothing
 records where a neural render came from.
 
-## The six canonical axes
+## The six canonical axes *(HISTORICAL — RETIRED 2026-10-14)*
+> *Historical hackathon specification only (retired 2026-10-14 — do not use as active rejection gates or training targets).*
+
 Every image is scored 0.00–1.00 on six axes (`six_axes/axes.py`):
 
 | Axis | Reads |
